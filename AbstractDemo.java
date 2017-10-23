@@ -11,6 +11,13 @@ class Circle extends Shape
   }
 }
 
+class Triangle extends Shape
+{
+  void display()
+  {
+    System.out.println("This a Triangle class display");
+  }
+}
 
 class AbstractDemo
 {
