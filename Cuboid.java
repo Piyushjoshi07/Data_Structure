@@ -19,11 +19,7 @@ public class Cuboid
     breath = b;
     height = h;
   }
-  int getVolume()
-  {
-    int volume = length* breath* height;
-    return volume;
-  }
+  
   public static void main(String[] args)
   {
     Cuboid obj1 = new Cuboid();
